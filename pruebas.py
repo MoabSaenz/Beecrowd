@@ -1,8 +1,6 @@
-n = int(input())
+palabra = "tesla"
+palabra = list(palabra)
 
-resultado = 1
+nose = len(palabra) // 2 + 1
 
-for i in range(1, n + 1):
-    resultado *= i
-
-print(resultado)
+print(nose)
