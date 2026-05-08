@@ -5,9 +5,10 @@ for _ in range(casos_prueba):
     palabra = list(palabra)
 
     palabra_encriptada = []
+
     for letra in palabra:
         if letra.isalpha():
-            nueva_letra = chr(ord(letra) + 1)
+            nueva_letra = chr(ord(letra) + 3)
             palabra_encriptada.append(nueva_letra)
             
         else:
